@@ -1,0 +1,27 @@
+#auth-panel{
+    position: fixed;
+    right: 0;
+}
+button {
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px;
+}
+
+#login{
+    background-color: #56e137;
+}
+#login:hover{
+    background-color: #156e00;
+}
+#logout{
+    background-color: #3cdbef;
+}
+#logout:hover{
+    background-color: #087887;
+}
