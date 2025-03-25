@@ -11,6 +11,7 @@ import { AuthProvider, AuthContext } from "./components/AuthProvider";
 
 const App = () => {
     return (
+
         <AuthProvider>
             <Router>
                 <MainContent />
@@ -34,7 +35,7 @@ const MainContent = () => {
                     <Route
                         path="/meals"
                         element={
-                            <ProtectedRoute allowedRoles={["ADMIN"]} userRole={roles[0]} element={<MealsPanel />} />
+                            <ProtectedRoute allowedRoles={["ADMIN"]} userRole={roles[0]} element={<MealsPanel/>} />
                         }
                     />
                 </Routes>

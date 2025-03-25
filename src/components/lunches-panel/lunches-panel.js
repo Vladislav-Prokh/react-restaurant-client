@@ -44,7 +44,6 @@ class LunchesPanel extends Component {
 
     render() {
         const { lunches, currentPage, totalPages, error } = this.state;
-
         return (
             <div>
                 <div className="lunches-content">
@@ -78,6 +77,7 @@ class LunchesPanel extends Component {
                         Next
                     </button>
                 </div>
+
             </div>
         );
     }
